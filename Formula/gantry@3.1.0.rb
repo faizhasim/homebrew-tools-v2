@@ -1,4 +1,4 @@
-class Gantry < Formula
+class GantryAT310 < Formula
   desc "CLI for Gantry CLI"
   homepage "https://github.com/SEEK-Jobs/gantry"
   url "git@github.com:SEEK-Jobs/gantry.git",
