@@ -29,8 +29,9 @@ class GantryAT310 < Formula
   end
 
   def caveats
-    return if OS.linux?
-    "not well tested on linux, please report any issues at #gantry slack channel"
+    <<~EOS
+      Early testing period. Please report any issues at #gantry slack channel.
+    EOS
   end
 
   test do
