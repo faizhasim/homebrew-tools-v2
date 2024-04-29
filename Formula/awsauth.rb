@@ -22,6 +22,8 @@ class Awsauth < Formula
 
   def caveats
     <<~EOS
+      UNOFFICIAL SUPPORT: Use at your own risk!
+      
       1.  Ensure you have the AWS CLI installed and configured accordingly.
           Refer to https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html for more information.
       
